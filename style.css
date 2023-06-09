@@ -10,9 +10,20 @@ body {
 
 
 header {
+    width: 90%;
     height: 80px;
     display: flex;
     align-items:flex-start;
+    margin-left: 6%;
+}
+
+header > i {
+    color: black;
+    font-size: 30px;
+    margin-left: 2%;
+    display: flex;
+    align-items: normal;
+
 }
 
 .container {
@@ -127,7 +138,7 @@ ul li.item-menu {
 }
 
 ul li.item-menu:hover {
-    background: #ff0077;
+    background: green;
 
 
 }
