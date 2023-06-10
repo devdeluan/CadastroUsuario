@@ -165,7 +165,7 @@ ul li.item-menu a .icon > i {
 }
 
 .conteudo {
-    margin-top: 5%;
+    /* margin-top: 2%; */
     width: 90%;
     height: 100%;
     margin-left: 10%;
@@ -179,7 +179,7 @@ ul li.item-menu a .icon > i {
 
 .conteudo > h4 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin-top: 2%;
 }
 
@@ -187,64 +187,77 @@ ul li.item-menu a .icon > i {
     margin-right: 32%;
     margin-top: 3%;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content:space-evenly; */
+    flex-direction: column;
+    align-items: center;
 }
 .input_1 > .input_txt {
-    background-color: #6d9b8281;
-    width: 250px;
+    margin: 2%;
+    margin-left: 40%;
+    width: 80%;
     height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     color: black;
-    border: none;
+    border: solid 1px;
 }
 
 .input_1 > .input_email {
-    background-color: #6d9b8281;
-    width: 250px;
+    margin: 2%;
+    margin-left: 40%;
+    width: 80%;
     height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     color: black;
-    border: none;
+    border: solid 1px;
 }
 
 .input_2 {
-    margin-right: 15%;
-    margin-top: 8%;
+    margin-right: 32%;
+    margin-top: 1%;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content:space-evenly; */
+    flex-direction: column;
+    align-items: center;
 }
 
 .input_2 > .input_senha {
-    background-color: #6d9b8281;
-    width: 250px;
+    margin: 2%;
+    margin-left: 40%;
+    width: 80%;
     height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     color: black;
-    border: none;
+    border: solid 1px;
+
 }
 
 .input_2 > .input_confirma {
-    background-color: #6d9b8281;
-    width: 250px;
+    margin: 2%;
+    margin-left: 40%;
+    width: 80%;
     height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     color: black;
-    border: none;
+    border: solid 1px ;
+
 }
 
 button {
         background-color: green;
-        width: 100px;
-        height: 35px;
+        width: 80%;
+        height: 40px;
+        margin: 2%;
+        margin-left: 40%;
         border: none;
         border-radius: 7px;
         color: white;
         font-size: 16px;
         cursor: pointer;
+        border: solid 1px ;
 }
 
 button:hover {
@@ -252,6 +265,6 @@ button:hover {
 }
 
 .conteudo > p {
-    margin-top: 20%;
-    margin-left: 70%;
+    margin-top: 5%;
+    margin-left: 75%;
 }
