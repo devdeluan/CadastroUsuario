@@ -183,6 +183,16 @@ ul li.item-menu a .icon > i {
     margin-top: 2%;
 }
 
+.config_usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.config_usuario > select {
+    width: 15%;
+}
+
 .input_1 {
     margin-right: 32%;
     margin-top: 3%;
